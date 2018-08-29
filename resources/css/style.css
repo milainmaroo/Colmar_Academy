@@ -41,7 +41,7 @@ a {
 }
 
 .image-content img {
-  max-width: 60%;
+  width: 60%;
   height: auto;
 }
 
@@ -69,6 +69,10 @@ a {
 }
 /* Second Column */
 .second-column {
+  display: flex;
+}
+
+.info {
   display: flex;
 }
 
@@ -114,6 +118,9 @@ a {
   display: flex;
 }
 
+.video-content {
+  border: 1px solid black;
+}
 /* Footer Section */
 footer {
   border-top: 1px solid black;
