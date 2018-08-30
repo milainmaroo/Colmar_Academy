@@ -1,13 +1,21 @@
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+}
+
 /* Header Section */
 header {
   display: flex;
-  height: 64px;
-  align-items: center;
-  padding: 0px 24px;
-  width: 100%;
   position: fixed;
+  height: 68px;
+  align-items: center;
+  padding-left: 24px;
+  width: 100%;
   background-color: white;
-  top: 0;
+}
+
+header nav {
+  padding-right: 24px;
 }
 
 nav ul {
@@ -30,7 +38,7 @@ nav ul {
   color: lightgray;
 }
 
-a {
+header a {
   padding-right: 16px;
 }
 
@@ -46,7 +54,7 @@ a {
   border: 1px solid black;
 }
 
-.image-content img {
+.image-content img, h1, p {
   width: 100%;
 }
 
@@ -56,12 +64,19 @@ a {
   padding-left: 24px;
 }
 
+.main-information h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 32px 0px;
+}
+
 
 /* First Column */
 .first-column {
   padding-top: 96px;
   display: flex;
   align-items: center;
+  padding-bottom: 32px;
 }
 
 .start-here {
@@ -69,18 +84,29 @@ a {
   padding: 8px 0px;
   text-align: center;
 }
+
+.main-banner {
+  width: 60%;
+  height: auto;
+  border: 1px solid white;
+}
+.main-banner img {
+  width: 100%;
+}
 /* Second Column */
 .second-column {
   display: flex;
+  padding-top: 32px;
 }
 
-.main-banner {
-  border: 1px solid black;
-  width: 60%;
+.second-column h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 32px 0px;
 }
 
-.main-banner img, h1, p {
-  width: 100%;
+.website {
+  padding: 32px 0px;
 }
 
 
@@ -138,22 +164,27 @@ a {
 
 .campus-info {
   display: flex;
-  border: 1px solid black;
+  align-items: center;
+/*  border: 1px solid black; */
+}
+
+.campus1 {
+  background-color: white;
 }
 
 .info {
   width: 35%;
   height: auto;
+  padding: 16px 16px;
 }
 
 .info img {
   width: 100%;
 }
 
-
 .video-content {
   width: 60%;
-  border: 1px solid black;
+/*  border: 1px solid black; */
   padding-bottom: 32px;
 }
 
@@ -164,12 +195,18 @@ a {
 
 /* Footer Section */
 footer {
+  display: flex;
+  height: 64px;
   border-top: 1px solid black;
   padding-top: 18px;
   padding-left: 24px;
 }
 
-.copyright {
+footer span {
+  padding-right: 16px;
+}
+
+.copyright-2018 {
   display: flex;
   flex-grow: 1;
 }
