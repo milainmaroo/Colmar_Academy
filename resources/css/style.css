@@ -48,6 +48,12 @@ header a {
   padding-right: 16px;
 }
 
+@media only screen and (max-width: 768px) {
+  .logo img {
+    width: 100%;
+  }
+}
+
 /* Main Container */
 .main-container {
   padding-left: 24px;
@@ -147,11 +153,9 @@ p.main-info{
 
 .main-courses {
   display: flex;
-  border: 1px solid white;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 
 .courses img, h3, p {
   width: 100%;
@@ -159,8 +163,6 @@ p.main-info{
 }
 
 .courses {
-  box-sizing: border-box;
- /* border: 1px solid black; */
   width: 30%;
   padding-right: 32px;
   padding-bottom: 32px;
@@ -170,19 +172,14 @@ p.main-info{
   background-color: white;
 }
 
-.description {
-  padding-bottom: 24px;
-}
-
-
 .course-name {
   padding-left: 16px;
+  padding-bottom: 24px;
 }
 
 .course-type {
   padding: 8px 0px;
 }
-
 
 /* Fourth Column */
 .fourth-column {
@@ -192,7 +189,6 @@ p.main-info{
 .campus-info {
   display: flex;
   align-items: center;
-/*  border: 1px solid black; */
 }
 
 .fourth-column h1 {
@@ -237,7 +233,7 @@ footer span {
   padding-right: 16px;
 }
 
-.copyright-2018 {
+.copyright {
   display: flex;
   flex-grow: 1;
 }
