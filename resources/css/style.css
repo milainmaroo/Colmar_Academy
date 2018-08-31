@@ -30,12 +30,18 @@ nav ul {
 }
 
 .logo span {
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .title-2 {
   color: lightgray;
+}
+
+.title span {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 header a {
@@ -45,19 +51,17 @@ header a {
 /* Main Container */
 .main-container {
   padding-left: 24px;
-  background-color: gray;
+  background-color: lightgray;
 }
 
 .image-content {
   width: 60%;
   height: auto;
-  border: 1px solid black;
 }
 
 .image-content img, h1, p {
   width: 100%;
 }
-
 
 .main-information {
   width: 40%;
@@ -70,6 +74,10 @@ header a {
   padding: 32px 0px;
 }
 
+p.main-info{
+  font-size: 19px;
+  font-weight: bold;
+}
 
 /* First Column */
 .first-column {
@@ -80,19 +88,28 @@ header a {
 }
 
 .start-here {
-  border: 1px solid white;
-  padding: 8px 0px;
   text-align: center;
+  padding: 8px 0px;
+  margin: 32px 0px;
+  width: 95%;
+  background-color: gray;
+  font-weight: bold;
+}
+
+.start-here a {
+  color: white;
+  font-size: 16px;
 }
 
 .main-banner {
   width: 60%;
   height: auto;
-  border: 1px solid white;
 }
+
 .main-banner img {
   width: 100%;
 }
+
 /* Second Column */
 .second-column {
   display: flex;
@@ -109,11 +126,20 @@ header a {
   padding: 32px 0px;
 }
 
+.narrative a {
+  color: blue;
+}
+
+.narrative h2, p {
+  padding-bottom: 8px;
+}
+
 
 /* Third Column */
 .third-column {
   padding: 0px 72px;
 }
+
 .title {
   padding: 32px 0px;
   text-align: center;
@@ -121,8 +147,9 @@ header a {
 
 .main-courses {
   display: flex;
-/*  border: 1px solid white; */
+  border: 1px solid white;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 
@@ -148,7 +175,6 @@ header a {
 }
 
 
-
 .course-name {
   padding-left: 16px;
 }
@@ -156,6 +182,7 @@ header a {
 .course-type {
   padding: 8px 0px;
 }
+
 
 /* Fourth Column */
 .fourth-column {
@@ -166,6 +193,12 @@ header a {
   display: flex;
   align-items: center;
 /*  border: 1px solid black; */
+}
+
+.fourth-column h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 32px 0px;
 }
 
 .campus1 {
@@ -184,14 +217,12 @@ header a {
 
 .video-content {
   width: 60%;
-/*  border: 1px solid black; */
   padding-bottom: 32px;
 }
 
 .video-content video, h1, p {
   width: 100%;
 }
-
 
 /* Footer Section */
 footer {
