@@ -49,14 +49,26 @@ nav ul {
   color: #696969;
 }
 
-
 header a {
   padding-right: 0.875rem;
 }
 
+.mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
-  .logo img {
-    width: 100%;
+  .logo {
+    display: none;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    text-align: center;
   }
 }
 
