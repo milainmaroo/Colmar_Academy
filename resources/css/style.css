@@ -1,21 +1,22 @@
-html {
-  font-family: "Helvetica", sans-serif;
+body {
   font-size: 16px;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
 }
 
 /* Header Section */
 header {
   display: flex;
   position: fixed;
-  height: 68px;
+  height: 4.25rem;
   align-items: center;
-  padding-left: 24px;
+  padding-left: 1.5rem;
   width: 100%;
   background-color: white;
 }
 
 header nav {
-  padding-right: 24px;
+  padding-right: 1.5rem;
 }
 
 nav ul {
@@ -39,7 +40,7 @@ nav ul {
 }
 
 .logo span {
-  font-size: 18px;
+  font-size: 1.125rem;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -50,7 +51,7 @@ nav ul {
 
 
 header a {
-  padding-right: 14px;
+  padding-right: 0.875rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -61,7 +62,7 @@ header a {
 
 /* Content Container */
 .content {
-  padding-left: 24px;
+  padding-left: 1.5rem;
   background-color: #D3D3D3;
 }
 
@@ -82,7 +83,7 @@ header a {
 }
 
 p.main-info {
-  font-size: 19px;
+  font-size: 1.19rem;
   font-weight: bold;
 }
 
@@ -124,7 +125,7 @@ p.main-info {
 }
 
 .second-column h1 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 2rem 0rem;
 }
@@ -133,35 +134,35 @@ p.main-info {
   padding: 2rem 0rem;
 }
 
-.narrative a {
+.description a {
   color: blue;
 }
 
-.narrative h2 {
-  padding-bottom: 8px;
+.description h2 {
+  padding-bottom: 0.5rem;
   color: #505050;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
-.narrative p {
-  padding-bottom: 8px;
+.description p {
+  padding-bottom: 0.5rem;
 }
 
 
 /* Third Column */
 .third-column {
-  padding: 0px 72px;
+  padding: 0rem 4.5rem;
 }
 
 .title {
-  padding: 32px 0px;
+  padding: 2rem 0rem;
   color: #696969;
   text-align: center;
 }
 
 .title p {
-  font-size: 20px;
+  font-size: 1.56rem;
   font-weight: bold;
 }
 
@@ -189,16 +190,16 @@ p.main-info {
 .course-name h3 {
   color: #505050;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 
 .course-name {
-  padding: 16px 24px 24px 16px;
+  padding: 1rem 1.5rem 1.5rem 1rem;
 }
 
 .course-type {
-  padding: 9px 0px;
+  padding: 0.56rem 0rem;
 }
 
 /* Fourth Column */
@@ -217,7 +218,7 @@ p.main-info {
 }
 
 .fourth-column h1 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 2rem 0rem;
 }
@@ -249,12 +250,12 @@ p.main-info {
 /* Footer Section */
 footer {
   display: flex;
-  height: 64px;
+  height: 4rem;
   border-top: 1px solid #505050;
   background-color: #D3D3D3;
-  color: #505050;;
-  padding-top: 18px;
-  padding-left: 24px;
+  color: #505050;
+  padding-top: 1.25rem;
+  padding-left: 1.5rem;
 }
 
 footer span {
