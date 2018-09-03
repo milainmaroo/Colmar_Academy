@@ -1,6 +1,6 @@
 html {
   font-family: "Helvetica", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Header Section */
@@ -22,10 +22,19 @@ nav ul {
   display: flex;
 }
 
+.main-banner {
+  width: 58.5%;
+  height: auto;
+}
+
+.main-banner img {
+  width: 100%;
+}
+
 .logo {
   display: flex;
   flex-grow: 1;
-  height: 32px;
+  height: 2rem;
   align-items: center;
 }
 
@@ -35,17 +44,13 @@ nav ul {
   font-weight: bold;
 }
 
-.title-2 {
-  color: lightgray;
+.title-1 {
+  color: #696969;
 }
 
-.title span {
-  font-size: 18px;
-  font-weight: bold;
-}
 
 header a {
-  padding-right: 16px;
+  padding-right: 14px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -54,10 +59,10 @@ header a {
   }
 }
 
-/* Main Container */
-.main-container {
+/* Content Container */
+.content {
   padding-left: 24px;
-  background-color: lightgray;
+  background-color: #D3D3D3;
 }
 
 .image-content {
@@ -67,76 +72,79 @@ header a {
 
 .image-content img, h1, p {
   width: 100%;
-}
-
-.main-information {
-  width: 40%;
-  padding-left: 24px;
+  color: #505050;
 }
 
 .main-information h1 {
-  font-size: 24px;
+  font-size: 2.5rem;
   font-weight: bold;
-  padding: 32px 0px;
+  padding: 2rem 0rem;
 }
 
-p.main-info{
+p.main-info {
   font-size: 19px;
   font-weight: bold;
 }
 
 /* First Column */
+.first-column .main-information {
+  width: 25%;
+  padding-left: 2.5rem;
+  color: #505050;
+}
+
 .first-column {
-  padding-top: 96px;
+  padding-top: 6rem;
   display: flex;
   align-items: center;
-  padding-bottom: 32px;
+  padding-bottom: 2rem;
 }
 
 .start-here {
   text-align: center;
-  padding: 8px 0px;
-  margin: 32px 0px;
-  width: 95%;
-  background-color: gray;
-  font-weight: bold;
+  padding: 0.75rem 0rem;
+  margin: 2rem 0rem;
+  background-color: #696969;
 }
 
 .start-here a {
   color: white;
-  font-size: 16px;
-}
-
-.main-banner {
-  width: 60%;
-  height: auto;
-}
-
-.main-banner img {
-  width: 100%;
+  font-size: 1.25rem;
 }
 
 /* Second Column */
+.second-column .main-information {
+  width: 40%;
+  padding-left: 2rem;
+}
+
 .second-column {
   display: flex;
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 
 .second-column h1 {
   font-size: 24px;
   font-weight: bold;
-  padding: 32px 0px;
+  padding: 2rem 0rem;
 }
 
 .website {
-  padding: 32px 0px;
+  padding: 2rem 0rem;
 }
 
 .narrative a {
   color: blue;
 }
 
-.narrative h2, p {
+.narrative h2 {
+  padding-bottom: 8px;
+  color: #505050;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.narrative p {
   padding-bottom: 8px;
 }
 
@@ -148,7 +156,13 @@ p.main-info{
 
 .title {
   padding: 32px 0px;
+  color: #696969;
   text-align: center;
+}
+
+.title p {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .main-courses {
@@ -164,24 +178,35 @@ p.main-info{
 
 .courses {
   width: 30%;
-  padding-right: 32px;
-  padding-bottom: 32px;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
 }
 
 .course {
   background-color: white;
 }
 
+.course-name h3 {
+  color: #505050;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
 .course-name {
-  padding-left: 16px;
-  padding-bottom: 24px;
+  padding: 16px 24px 24px 16px;
 }
 
 .course-type {
-  padding: 8px 0px;
+  padding: 9px 0px;
 }
 
 /* Fourth Column */
+.fourth-column .main-information {
+  width: 40%;
+  padding-left: 2rem;
+}
+
 .fourth-column {
   display: flex;
 }
@@ -194,17 +219,18 @@ p.main-info{
 .fourth-column h1 {
   font-size: 24px;
   font-weight: bold;
-  padding: 32px 0px;
+  padding: 2rem 0rem;
 }
 
-.campus1 {
-  background-color: white;
+.campus1, .campus2 {
+  background-color: #C0C0C0;
+  border-bottom: 1px solid #505050;
 }
 
 .info {
   width: 35%;
   height: auto;
-  padding: 16px 16px;
+  padding: 1rem 1rem;
 }
 
 .info img {
@@ -213,7 +239,7 @@ p.main-info{
 
 .video-content {
   width: 60%;
-  padding-bottom: 32px;
+  padding-bottom: 2rem;
 }
 
 .video-content video, h1, p {
@@ -224,13 +250,15 @@ p.main-info{
 footer {
   display: flex;
   height: 64px;
-  border-top: 1px solid black;
+  border-top: 1px solid #505050;
+  background-color: #D3D3D3;
+  color: #505050;;
   padding-top: 18px;
   padding-left: 24px;
 }
 
 footer span {
-  padding-right: 16px;
+  padding-right: 1rem;
 }
 
 .copyright {
