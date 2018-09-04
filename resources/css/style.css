@@ -69,6 +69,10 @@ header a {
   .mobile {
     display: block;
   }
+
+  .mobile img {
+    padding-right: 3.5rem;
+  }
 }
 
 /* Content Container */
@@ -124,6 +128,25 @@ p.main-info {
   font-size: 1.25rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .first-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-column .main-information {
+    width: 50%;
+  }
+
+  .main-banner {
+    width: 100%;
+  }
+
+  .first-column {
+    padding-top: 4rem;
+  }
+}
+
 /* Second Column */
 .second-column .main-information {
   width: 40%;
@@ -158,6 +181,16 @@ p.main-info {
 
 .description p {
   padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .second-column .image-content {
+    display: none;
+  }
+
+  .seond-column .main-information {
+    width: 100%;
+  }
 }
 
 
