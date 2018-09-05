@@ -135,16 +135,18 @@ p.main-info {
   }
 
   .first-column .main-information {
-    width: 50%;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  .main-information p {
+    display: block;
   }
 
   .main-banner {
     width: 100%;
   }
 
-  .first-column {
-    padding-top: 4rem;
-  }
 }
 
 /* Second Column */
@@ -183,14 +185,32 @@ p.main-info {
   padding-bottom: 0.5rem;
 }
 
+.mobile-information {
+  display: none;
+}
+
+
 @media only screen and (max-width: 768px) {
-  .second-column .image-content {
+  .second-column {
     display: none;
   }
 
-  .seond-column .main-information {
-    width: 100%;
+  .mobile-information {
+    display: block;
+    padding: 1.5rem 1.5rem;
+    background-color: #E8E8E8;
   }
+
+  .mobile-information img {
+    width: 100%;
+    height: auto;
+  }
+
+  .description p {
+    display: block;
+    padding-bottom: 1rem;
+  }
+
 }
 
 
@@ -251,7 +271,7 @@ p.main-info {
 }
 
 @media only screen and (max-width: 768px) {
-  .third-column {
+  .third-column .main-courses {
     display: none;
   }
 
@@ -293,11 +313,6 @@ p.main-info {
   font-size: 1.5rem;
   font-weight: bold;
   padding: 2rem 0rem;
-}
-
-.campus1, .campus2 {
-  background-color: #C0C0C0;
-  border-bottom: 1px solid #505050;
 }
 
 .info {
