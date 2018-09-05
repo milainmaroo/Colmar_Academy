@@ -78,7 +78,7 @@ header a {
 /* Content Container */
 .content {
   padding-left: 1.5rem;
-  background-color: #D3D3D3;
+  background-color: #E8E8E8;
 }
 
 .image-content {
@@ -246,23 +246,32 @@ p.main-info {
   padding: 0.56rem 0rem;
 }
 
+.mobile-course {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
-  .course-img {
+  .third-column {
     display: none;
   }
 
-  .course-name p {
-    display: none;
+
+  .mobile-course {
+    display: block;
+    background-color: #D3D3D3;
   }
 
-  .course {
-    background-color: none;
+  .mobile-course h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin-bottom: 0.9rem;
+    background-color: #C8C8C8;
+    color: #505050;
+    width: 100%;
   }
 
-  .course-name {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 /* Fourth Column */
