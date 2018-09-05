@@ -5,6 +5,7 @@ body {
 }
 
 /* Header Section */
+
 header {
   display: flex;
   position: fixed;
@@ -86,11 +87,13 @@ header a:hover {
   }
 
   .mobile img {
-    padding-right: 3.5rem;
+    padding-right: 2.9rem;
   }
+
 }
 
 /* Content Container */
+
 .content {
   padding-left: 1.5rem;
   background-color: #f4f7f6;
@@ -118,6 +121,7 @@ p.main-info {
 }
 
 /* First Column */
+
 .first-column .main-information {
   width: 25%;
   padding-left: 2.5rem;
@@ -157,7 +161,8 @@ p.main-info {
 
   .first-column .main-information {
     width: 100%;
-    border: 1px solid black;
+    padding: 0rem;
+    text-align: center;
   }
 
   .main-information p {
@@ -171,6 +176,7 @@ p.main-info {
 }
 
 /* Second Column */
+
 .second-column .main-information {
   width: 40%;
   padding-left: 2rem;
@@ -225,7 +231,7 @@ p.main-info {
   .mobile-information {
     display: block;
     padding: 1.5rem 1.5rem;
-    background-color: #E8E8E8;
+    background-color: #f4f7f6;
   }
 
   .mobile-information img {
@@ -238,10 +244,15 @@ p.main-info {
     padding-bottom: 1rem;
   }
 
+  .description {
+    text-align: center;
+  }
+
 }
 
 
 /* Third Column */
+
 .third-column {
   padding: 0rem 4.5rem;
 }
@@ -284,7 +295,6 @@ p.main-info {
   font-size: 1.25rem;
 }
 
-
 .course-name {
   padding: 1rem 1.5rem 1.5rem 1rem;
 }
@@ -302,26 +312,29 @@ p.main-info {
     display: none;
   }
 
-
   .mobile-course {
     display: block;
-    background-color: #D3D3D3;
+    background-color: #f4f7f6;
+    width: 100%;
   }
 
   .mobile-course h3 {
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
-    padding: 1rem 1rem;
+    padding: 1.2rem 0rem;
     margin-bottom: 0.9rem;
     background-color: #C8C8C8;
     color: #505050;
-    width: 100%;
   }
 
+  .mobile-course h3:hover {
+    color: #49c5b6;
+  }
 }
 
 /* Fourth Column */
+
 .fourth-column .main-information {
   width: 40%;
   padding-left: 2rem;
@@ -386,6 +399,7 @@ p.main-info {
 }
 
 /* Footer Section */
+
 footer {
   display: flex;
   height: 4rem;
@@ -411,9 +425,9 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .copyright span {
-    text-align: center;
+  .copyright {
     padding: 1rem;
+    text-align: center;
   }
 
   nav span {
