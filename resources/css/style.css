@@ -84,10 +84,11 @@ header a:hover {
 
   .mobile {
     display: block;
+    text-align: center;
   }
 
   .mobile img {
-    padding-right: 2.9rem;
+    padding-right: 2.5rem;
   }
 
 }
@@ -203,7 +204,7 @@ p.main-info {
   font-weight: bold;
 }
 
-.description a:hover {
+.description a:active {
   color: #49c5b6;
 }
 
